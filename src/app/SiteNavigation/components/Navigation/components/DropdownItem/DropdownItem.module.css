@@ -1,0 +1,30 @@
+.container {
+  cursor: pointer;
+  position: relative;
+}
+
+.items {
+  position: absolute;
+  border-radius: 10px;
+  background: var(--color-background);
+  top: 0;
+  left: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  display: block;
+  padding: 12px 24px;
+  width: 100px;
+  color: #777786;
+  text-decoration: none;
+}
+
+.item + .item {
+  border-top: 1px solid #777786;
+}
+
+.link:hover {
+  color: white;
+}

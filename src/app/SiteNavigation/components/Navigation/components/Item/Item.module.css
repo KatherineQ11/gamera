@@ -1,0 +1,27 @@
+.container {
+  margin-bottom: 24px;
+}
+
+.item {
+  color: #777786;
+  text-decoration: none;
+  text-align: center;
+}
+
+.item.isHighlight {
+  color: white;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+.label {
+  opacity: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.label.isHighlight {
+  opacity: 1;
+}

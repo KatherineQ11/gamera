@@ -1,0 +1,63 @@
+.container {
+  position: relative;
+}
+
+.result {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.search {
+  --prefix-width: 50px;
+  --suffix-width: 40px;
+
+  position: relative;
+}
+
+.suffix,
+.prefix {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prefix {
+  left: 0;
+  width: var(--prefix-width);
+}
+
+.suffix {
+  right: 0;
+  width: var(--suffix-width);
+}
+
+.clear {
+  font-size: 18px;
+  color: white;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.input {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-background);
+  border-radius: var(--form-items-border-radius);
+  width: 210px;
+  height: var(--form-items-height);
+  outline: 0;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+  padding-left: var(--prefix-width);
+  padding-right: var(--suffix-width);
+}
+
+.input:focus {
+  border-color: var(--color-primary);
+}

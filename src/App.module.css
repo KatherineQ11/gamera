@@ -1,0 +1,7 @@
+.container {
+  padding-left: calc(var(--side-navigation-width) + 24px);
+  padding-right: 48px;
+  background-color: #15181d;
+  color: white;
+  min-height: 100vh;
+}

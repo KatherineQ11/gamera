@@ -1,0 +1,17 @@
+.wrapper {
+  width: var(--side-navigation-width);
+  position: fixed;
+  top: var(--top-gap);
+  bottom: 0;
+  left: 0;
+}
+
+.container {
+  background-color: var(--color-background);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: calc(var(--side-navigation-width) - 72px);
+  height: 100%;
+  margin: auto;
+  padding: 40px 14px;
+}

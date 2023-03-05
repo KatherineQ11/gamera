@@ -1,0 +1,5 @@
+.container {
+  padding-top: var(--top-gap);
+  display: flex;
+  justify-content: space-between;
+}

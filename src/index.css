@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /* Colors */
+  --color-primary: #72F34B;
+  --color-background: #1e2127;
+
+  /* Form Items */
+  --form-items-height: 46px;
+  --form-items-border-radius: 4px;
+
+  /* App Layout */
+  --side-navigation-width: 120px;
+  --top-gap: 24px;
+}

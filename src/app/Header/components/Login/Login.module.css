@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--color-primary);
+  border-radius: var(--form-items-border-radius);
+  border: 1px solid var(--color-primary);
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  height: var(--form-items-height);
+}
+
+.icon {
+  margin-right: 8px;
+}
